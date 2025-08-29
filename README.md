@@ -1,27 +1,112 @@
-# Portfolio Website
+# hafijur.my.id 🌐
 
-এই রেপোজিটরিতে আমার **WordPress সাইটকে Simply Static প্লাগইন ব্যবহার করে স্ট্যাটিক HTML** এ রূপান্তরিত করা হয়েছে এবং **GitHub Pages** এর মাধ্যমে লাইভ করা হয়েছে।
+This is the source code for **[hafijur.my.id](https://hafijur.my.id/)**
+--\
+the personal website of **Md Hafijur Rahoman**.
 
-## 🔗 Live Demo
-👉 [https://hafijurmee.github.io/portfolio/](https://hafijurmee.github.io/portfolio/)
+The site is **custom coded** (not WordPress) and optimized for SEO,
+speed, and performance.
+
+------------------------------------------------------------------------
 
 ## 🚀 Features
-- WordPress থেকে এক্সপোর্ট করা স্ট্যাটিক HTML, CSS, JS
-- দ্রুত লোড হয় (Fast & Secure)
-- GitHub Pages এ হোস্ট করা, কোনো আলাদা সার্ভারের প্রয়োজন নেই
-- Responsive ডিজাইন (মোবাইল ও ডেস্কটপে সুন্দরভাবে কাজ করে)
 
-## ⚙️ Tools Used
-- WordPress (CMS)
-- [Simply Static](https://wordpress.org/plugins/simply-static/) Plugin
-- GitHub & GitHub Pages
+-   Custom-coded static website\
+-   SEO-friendly structure\
+-   Mobile responsive design\
+-   Robots.txt and Sitemap.xml configured\
+-   Google Search Console integration\
+-   Schema.org structured data support
 
-## 📌 How to Update
-1. WordPress-এ কনটেন্ট/ডিজাইন পরিবর্তন করুন।
-2. Simply Static → **Generate** চালান।
-3. নতুন ZIP ডাউনলোড করে আনজিপ করুন।
-4. GitHub Repo তে পুরনো ফাইলগুলো রিপ্লেস করে Commit করুন।
-5. 1–3 মিনিট পর লাইভ সাইটে পরিবর্তন দেখা যাবে।
+------------------------------------------------------------------------
 
----
-✍️ Developed & Maintained by **Md Hafijur Rahoman**
+## 📂 Project Structure
+
+    /root
+     ├── index.html
+     ├── about.html
+     ├── projects.html
+     ├── blog/
+     ├── contact.html
+     ├── assets/
+     ├── robots.txt
+     └── sitemap.xml
+
+------------------------------------------------------------------------
+
+## ⚙️ Setup Instructions
+
+1.  **Clone or download** the repository.
+
+    ``` bash
+    git clone https://github.com/username/hafijur.my.id.git
+    ```
+
+2.  **Upload files** to your hosting root directory.
+
+3.  **Update DNS & SSL**
+
+    -   Make sure HTTPS (SSL) is enabled.\
+    -   DNS managed via Cloudflare (recommended).
+
+------------------------------------------------------------------------
+
+## 🔍 SEO Configuration
+
+### Robots.txt
+
+``` txt
+User-agent: *
+Allow: /
+
+Sitemap: https://hafijur.my.id/sitemap.xml
+```
+
+### Sitemap.xml
+
+Auto-generated sitemap contains all important pages:\
+- `/`\
+- `/about`\
+- `/projects`\
+- `/blog`\
+- `/contact`
+
+### Basic Meta Tags
+
+``` html
+<title>Md Hafijur Rahoman — Plugins, Web & Tools</title>
+<meta name="description" content="Md Hafijur Rahoman builds WordPress plugins and web tools. Contact for custom development.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://hafijur.my.id/">
+```
+
+### Schema Markup
+
+``` html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md Hafijur Rahoman",
+  "url": "https://hafijur.my.id/",
+  "jobTitle": "Plugin Developer",
+  "worksFor": { "@type": "Organization", "name": "MR Solution" },
+  "sameAs": ["https://wa.me/8801712132191"]
+}
+</script>
+```
+
+------------------------------------------------------------------------
+
+## 📊 Analytics & Monitoring
+
+-   Integrated with **Google Analytics** (G-XXXXXXX).\
+-   Verified on **Google Search Console** for indexing & SEO tracking.
+
+------------------------------------------------------------------------
+
+## 📬 Contact
+
+**Md Hafijur Rahoman**\
+[WhatsApp](https://wa.me/8801712132191) \|
+[Website](https://hafijur.my.id/)
